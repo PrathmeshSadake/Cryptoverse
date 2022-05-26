@@ -8,7 +8,7 @@ function Events({ events }) {
         Events
       </p>
       <div className='bg-white pb-5'>
-        <div className='grid grid-cols-4 gap-3 my-6'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 my-6'>
           {events.map((event) => (
             <div
               key={event.etag}
